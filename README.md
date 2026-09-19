@@ -1,17 +1,37 @@
-SARI-SARI STORE CALCULATOR
-It calculates the price of 2 items and prints a receipt
-In order to run the program, a user must input the needed variables then pressing the "Enter" key to proceed
-Inputs needed:
-item_name1
-item_name
-price_per_unit1
-price_per_unit2
-Sample Output
-What item is the customer buying? toilet paper Enter price per unit (₱): 120 How many units? 2 What item is the customer buying? toilet Enter price per unit (₱): 15000 How many units? 1 ======================================= SARI-SARI STORE RECEIPT ======================================= Item: toilet paper Price/Unit: ₱120.0 Quantity: 1 Subtotal: ₱15120.00 Item: toilet Price/Unit: ₱15000.0 Quantity: 1 Subtotal: 16934.40
+# Circular Garden Calculator
 
-TOTAL: ₱16934.40
-Salamat! Come Again!
+## This code is made to find the area, circumference, square root of the area, rounded down area and rounded up area for a circular garden
 
-Author:
-Ian Lorenz L. Mangawit
-8-Adelfa
+## In order to run this code, you must enter a valid input so that it will calculate said variables
+
+## Input needed:
+
+### Number (Can be decimal because its a float input)
+
+## Sample output:
+
+### Enter radius of your circular garden in meters: 5
+The area of your circular garden is  78.54 square meters.
+
+The circumference of uour circular garden is  31.42 meters
+
+The square root of the area of your circular garden is 8.86 square meters
+
+The area rounded down of your circular garden is 78.00 square meters
+
+The area rounded up of your circular garden is 79.00 square meters
+
+# Problem Identification:
+## What is the area, circumference, square root, area rounded up, and area rounded down of the circular garden?
+
+# Problem Decomposition:
+## Seperating the code into input, processing, and output.
+
+# Pattern Recognition
+## The solutions using the math library will be used.
+
+# Data Representation:
+## The calculated outputs from the proccessed code.
+
+# Ian Lorenz L. Mangawit
+## 8-Adelfa
